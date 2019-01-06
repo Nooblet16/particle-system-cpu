@@ -1,0 +1,28 @@
+﻿Build started 08/03/2014 10:52:32.
+     1>Project "C:\Users\Praveer\Documents\Visual Studio 2010\Projects\window\window\window.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\window.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\OpenGL\glew-1.9.0\include" /IC:\OpenGL\freeglut\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\praveer\documents\visual studio 2010\projects\window\window\main.cpp(92): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\praveer\documents\visual studio 2010\projects\window\window\main.cpp(93): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\praveer\documents\visual studio 2010\projects\window\window\main.cpp(96): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\praveer\documents\visual studio 2010\projects\window\window\main.cpp(97): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\praveer\documents\visual studio 2010\projects\window\window\main.cpp(99): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\praveer\documents\visual studio 2010\projects\window\window\main.cpp(166): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\praveer\documents\visual studio 2010\projects\window\window\main.cpp(212): warning C4305: '+=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Praveer\Documents\Visual Studio 2010\Projects\window\Debug\window.exe" /NOLOGO /LIBPATH:"C:\OpenGL\glew-1.9.0\lib" /LIBPATH:C:\OpenGL\freeglut\lib glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\window.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Praveer\Documents\Visual Studio 2010\Projects\window\Debug\window.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Praveer\Documents\Visual Studio 2010\Projects\window\Debug\window.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\Users\Praveer\Documents\Visual Studio 2010\Projects\window\Debug\window.exe not found or not built by the last incremental link; performing full link
+         window.vcxproj -> C:\Users\Praveer\Documents\Visual Studio 2010\Projects\window\Debug\window.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Praveer\Documents\Visual Studio 2010\Projects\window\Debug\window.exe;#1" /manifest Debug\window.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\window.unsuccessfulbuild".
+         Touching "Debug\window.lastbuildstate".
+     1>Done Building Project "C:\Users\Praveer\Documents\Visual Studio 2010\Projects\window\window\window.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91
